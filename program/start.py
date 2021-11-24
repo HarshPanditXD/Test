@@ -56,7 +56,7 @@ async def start_(client: Client, message: Message):
 
 I'ᴍ Tʜᴇ Sᴜᴘᴇʀ x Mᴜsɪᴄ Bᴏᴛ! A Pᴏᴡᴇʀғᴜʟ Bᴏᴛ ᴛᴏ Pʟᴀʏ Mᴜsɪᴄ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ Vᴏɪᴄᴇ Cʜᴀᴛ 😇! 
 
-Aʟsᴏ I ʜᴀᴠᴇ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs! Pʟᴇᴀsᴇ ʜɪᴛ ᴏɴ **/help** ᴛᴏ sᴇᴇ ᴛʜᴇᴍ 😘!
+Aʟsᴏ I ʜᴀᴠᴇ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs! Pʟᴇᴀsᴇ ʜɪᴛ ᴏɴ  ᴛᴏ sᴇᴇ ᴛʜᴇᴍ 😘!
 
 Mᴀᴅᴇ ᴡɪᴛʜ ❤️ **@The_BLAZE_NETWORK**""",
 
