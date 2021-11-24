@@ -52,13 +52,14 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""✨ **Welcome {message.from_user.mention()} !**\n
-💭 [{BOT_NAME}](https://t.me/{BOT_USERNAME}) **Allows you to play music and video on groups through the new Telegram's video chats!**
+        f"""<b>Hi {message.from_user.mention} 😉️!</b>
 
-💡 **Find out all the Bot's commands and how they work by clicking on the » 📚 Commands button!**
+I'ᴍ Tʜᴇ Sᴜᴘᴇʀ x Mᴜsɪᴄ Bᴏᴛ! A Pᴏᴡᴇʀғᴜʟ Bᴏᴛ ᴛᴏ Pʟᴀʏ Mᴜsɪᴄ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ Vᴏɪᴄᴇ Cʜᴀᴛ 😇! 
 
-🔖 **To know how to use this bot, please click on the » ❓ Basic Guide button!**
-""",
+Aʟsᴏ I ʜᴀᴠᴇ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs! Pʟᴇᴀsᴇ ʜɪᴛ ᴏɴ **/help** ᴛᴏ sᴇᴇ ᴛʜᴇᴍ 😘!
+
+Mᴀᴅᴇ ᴡɪᴛʜ ❤️ **@The_BLAZE_NETWORK**""",
+
         reply_markup=InlineKeyboardMarkup(
             [
                 [
