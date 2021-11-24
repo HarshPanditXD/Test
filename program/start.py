@@ -64,27 +64,25 @@ Mᴀᴅᴇ ᴡɪᴛʜ ❤️ **@The_BLAZE_NETWORK**""",
             [
                 [
                     InlineKeyboardButton(
-                        "➕ Add me to your Group ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        "➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                 ],
-                [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
-                [
-                    InlineKeyboardButton("📚 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ Donate", url=f"https://t.me/{OWNER_NAME}"),
-                ],
                 [
                     InlineKeyboardButton(
-                        "👥 Official Group", url=f"https://t.me/{GROUP_SUPPORT}"
-                    ),
-                    InlineKeyboardButton(
-                        "📣 Official Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    ),
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/levina-lab/video-stream"
+                        "👮‍♂️ Oᴡɴᴇʀ 👮‍♂️", url=f"https://t.me/Proud_of_Indian"
                     )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "✨ Cʜᴀᴛ Zᴏɴᴇ 💫", url=f"https://t.me/The_Secret_worlds"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🔰️ Pᴏᴡᴇʀᴇᴅ Bʏ 🔰️", url=f"https://t.me/THE_BLAZE_NETWORK"
+                    ),
+                    InlineKeyboardButton(
+                        "⚜️ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚜️", url="https://t.me/BLAZE_SPAMMER"
                 ],
             ]
         ),
@@ -103,9 +101,9 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Group", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("✨ Group", url=f"https://t.me/THE_SECRET_WORLDS"),
                 InlineKeyboardButton(
-                    "📣 Channel", url=f"https://t.me/{UPDATES_CHANNEL}"
+                    "📣 Channel", url=f"https://t.me/THE_BLAZE_NETWORK"
                 ),
             ]
         ]
