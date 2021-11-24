@@ -83,7 +83,6 @@ Mᴀᴅᴇ ᴡɪᴛʜ ❤️ **@The_BLAZE_NETWORK**""",
                     ),
                     InlineKeyboardButton(
                         "⚜️ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚜️", url="https://t.me/BLAZE_SPAMMER"
-                ],
             ]
         ),
         disable_web_page_preview=True,
