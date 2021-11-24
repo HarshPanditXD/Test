@@ -1,17 +1,16 @@
 {
-    "name": "Sᴜᴘᴇʀ X Mᴜsɪᴄ"
-,
-    "description": "Tᴇʟᴇɢʀᴀᴍ ʙᴏᴛ ғᴏʀ Sᴛʀᴇᴀᴍɪɴɢ Vɪᴅᴇᴏ & Mᴜsɪᴄ ᴛʀᴏᴜɢʜᴛ ᴛʜᴇ Tᴇʟᴇɢʀᴀᴍ Gʀᴏᴜᴘ Vɪᴅᴇᴏ Cʜᴀᴛ, ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴘʏᴛɢᴄᴀʟʟs ᴀɴᴅ ᴘʏʀᴏɢʀᴀᴍ",
-    "logo": "https://telegra.ph/file/53b2e3cf42012493231e6.jpg",
+    "name": "Video x Music Stream Bot",
+    "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
+    "logo": "https://telegra.ph/file/1c41ded2dd871eb36bd7e.png",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/THE_BLAZE_NETWORK",
-    "repository": "https://github.com/unknownvip/LOC",
-    "success_url": "https://t.me/proud_of_Indian",
+    "website": "https://t.me/levinachannel",
+    "repository": "https://github.com/levina-lab/video-stream",
+    "success_url": "https://t.me/dlwrml",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
@@ -48,27 +47,22 @@
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": "BLAZE_SPAMMER"
+            "value": "VeezSupportGroup"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": "THE_BLAZE_NETWORK"
+            "value": "levinachannel"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": true,
-            "value": "proud_of_Indian"
+            "value": "dlwrml"
         },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
-            "value": " Sᴜᴘᴇʀ X Mᴜsɪᴄ
-
-### ![Super_x_robot](https://telegra.ph/file/816eb2c827c2e82b9b78c.jpg)
-
-
-**A [BlazeMusic](https://github.com/unknownvip/LOC) Based Telegram Bot and Userbot To Play Music in Your Telegram Groups With Some Cool Extra Features!**"
+            "value": "Levina"
         }
     },
     "addons": [],
