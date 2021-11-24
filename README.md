@@ -1,7 +1,10 @@
-<p align="center"><a href="https://t.me/VeezVideoBot"><img src="https://github.com/levina-lab/video-stream/raw/main/driver/veezlogo.png"></a></p>
-<p align="center">
-    <br><b>Video Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
-</p>
+# Sᴜᴘᴇʀ X Mᴜsɪᴄ
+
+### ![Super_x_robot](https://telegra.ph/file/816eb2c827c2e82b9b78c.jpg)
+
+
+**A [BlazeMusic](https://github.com/unknownvip/superX-robot) Based Telegram Bot and Userbot To Play Music in Your Telegram Groups With Some Cool Extra Features!**
+
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
     <a href="https://github.com/levina-lab/video-stream/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/Maintained%3F-yes-red.svg?style=flat-square" /></a>
