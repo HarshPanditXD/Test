@@ -82,10 +82,12 @@ Mᴀᴅᴇ ᴡɪᴛʜ ❤️ **@The_BLAZE_NETWORK**""",
                         "🔰️ Pᴏᴡᴇʀᴇᴅ Bʏ 🔰️", url=f"https://t.me/THE_BLAZE_NETWORK"
                     ),
                     InlineKeyboardButton(
-                        "⚜️ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ ⚜️", url=f"https://t.me/BLAZE_SPAMMER"
+                        "⚜️ Support Group ⚜️", url="https://t.me/BLAZE_SPAMMER"
+                    )
+                ]
             ]
         ),
-        disable_web_page_preview=True,
+        disable_web_page_preview=True
     )
 
 
