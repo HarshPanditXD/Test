@@ -51,44 +51,43 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
   
+        await message.reply_text(
         f"""<b>Hi {message.from_user.mention} 😉️!</b>
-            
-  
- PM_START_TEXT = """
-ʜᴏɪ, ɪ ᴍ ᴛɢɴ ʀᴏʙᴏᴛ
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
- [❤](https://telegra.ph/file/cab6825dea9263d347831.jpg)
-"""
 
-buttons = [
-    [
-        InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛɢɴ ʀᴏʙᴏᴛ ᴛᴏ ᴜʀ ᴄʜᴀᴛ", url="t.me/TGN_Ro_bot?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ 💫", url=f"https://github.com/Itsunknown-12/TGN-Robot"),
-        InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ ⚡", url=f"https://t.me/{SUPPORT_CHAT}"
+I'ᴍ Tʜᴇ Sᴜᴘᴇʀ x Mᴜsɪᴄ Bᴏᴛ! A Pᴏᴡᴇʀғᴜʟ Bᴏᴛ ᴛᴏ Pʟᴀʏ Mᴜsɪᴄ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ Vᴏɪᴄᴇ Cʜᴀᴛ 😇! 
+
+Aʟsᴏ I ʜᴀᴠᴇ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs! Pʟᴇᴀsᴇ ʜɪᴛ ᴏɴ  ᴛᴏ sᴇᴇ ᴛʜᴇᴍ 😘!
+
+Mᴀᴅᴇ ᴡɪᴛʜ ❤️ **@The_BLAZE_NETWORK**""",
+
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "👮‍♂️ Oᴡɴᴇʀ 👮‍♂️", url=f"https://t.me/Proud_of_Indian"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "✨ Cʜᴀᴛ Zᴏɴᴇ 💫", url=f"https://t.me/The_Secret_worlds"
+                    )
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🔰️ Pᴏᴡᴇʀᴇᴅ Bʏ 🔰️", url=f"https://t.me/THE_BLAZE_NETWORK"
+                    ),
+                    InlineKeyboardButton(
+                        "⚜️ Support Group ⚜️", url="https://t.me/BLAZE_SPAMMER"
+                    )
+                ]
+            ]
         ),
-    ],
-    [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ☑️", url=f"https://t.me/The_Godfather_Network"),
-        InlineKeyboardButton(
-            text="ᴛɢɴ ᴄʜᴀᴛ", url=f"https://t.me/greatpersonxd"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
-    ],
-]
-
-
-HELP_STRINGS = """
-`ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ [❤️](https://telegra.ph/file/cab6825dea9263d347831.jpg)"""
-                    
         disable_web_page_preview=True
-    )
 
 
 @Client.on_message(
