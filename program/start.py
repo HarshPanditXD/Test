@@ -46,15 +46,12 @@ async def _human_time_duration(seconds):
             parts.append("{} {}{}".format(amount, unit, "" if amount == 1 else "s"))
     return ", ".join(parts)
 
-
 @Client.on_message(
     command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
-    
-        
-
-        reply_markup=InlineKeyboardMarkup(
+    await message.reply_text(
+        f"""<b>Hi {message.from_user.mention} 😉️!</b>
             
   
  PM_START_TEXT = """
