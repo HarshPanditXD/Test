@@ -52,7 +52,7 @@ async def _human_time_duration(seconds):
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        f"""<b>Hi {message.from_user.mention} 😉️!</b>
+        
 
 
         reply_markup=InlineKeyboardMarkup(
