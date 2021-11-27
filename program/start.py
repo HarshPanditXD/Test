@@ -54,39 +54,20 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.mention} 😉️!</b>
 
-I'ᴍ Tʜᴇ Sᴜᴘᴇʀ x Mᴜsɪᴄ Bᴏᴛ! A Pᴏᴡᴇʀғᴜʟ Bᴏᴛ ᴛᴏ Pʟᴀʏ Mᴜsɪᴄ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘ Vᴏɪᴄᴇ Cʜᴀᴛ 😇! 
-
-Aʟsᴏ I ʜᴀᴠᴇ ᴍᴏʀᴇ ғᴇᴀᴛᴜʀᴇs! Pʟᴇᴀsᴇ ʜɪᴛ ᴏɴ  ᴛᴏ sᴇᴇ ᴛʜᴇᴍ 😘!
-
-Mᴀᴅᴇ ᴡɪᴛʜ ❤️ **@The_BLAZE_NETWORK**""",
 
         reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        "➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "👮‍♂️ Oᴡɴᴇʀ 👮‍♂️", url=f"https://t.me/Proud_of_Indian"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "✨ Cʜᴀᴛ Zᴏɴᴇ 💫", url=f"https://t.me/The_Secret_worlds"
-                    )
-                ],
-                [
-                    InlineKeyboardButton(
-                        "🔰️ Pᴏᴡᴇʀᴇᴅ Bʏ 🔰️", url=f"https://t.me/THE_BLAZE_NETWORK"
-                    ),
-                    InlineKeyboardButton(
-                        "⚜️ Support Group ⚜️", url="https://t.me/BLAZE_SPAMMER"
-                    )
-                ]
-            ]
-        ),
+  
+      "━━━━━━━━━━━━━━━━━━━━━━━━
+💥 𝙃𝙚𝙡𝙡𝙤, 𝙄 𝘼𝙢 𝙎𝙪𝙥𝙚𝙧 𝙁𝙖𝙨𝙩 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧
+𝘽𝙤𝙩 𝙁𝙤𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙂𝙧𝙤𝙪𝙥𝙨 ...
+┏━━━━━━━━━━━━━━━━━┓
+┣★ ⚡𝗖𝗵𝗮𝗻𝗻𝗲𝗹⚡ : "𝗧𝗵𝗲 𝗦𝘂𝗽𝗲𝗿𝗶𝗼𝘂𝗿 𝗡𝗲𝘁𝘄𝗼𝗿𝗸", url=url=f"https://t.me/Proud_of_Indian"
+┣★ ⚡𝗦𝘂𝗽𝗽𝗼𝗿𝘁⚡ : "𝗪𝗼𝗿𝗹𝗱 𝗙𝗿𝗶𝗲𝗻𝗱𝗦𝗵𝗶𝗽 𝗭𝗼𝗻𝗲", url=f"https://t.me/The_Secret_worlds"
+┣★ ⚡𝗢𝘄𝗻𝗲𝗿⚡   : "𝗦𝘂𝗺𝗶𝘁 𝗬𝗮𝗱𝗮𝘃", url=f"https://t.me/The_Secret_worlds"
+┗━━━━━━━━━━━━━━━━━┛
+━━━━━━━━━━━━━━━━━━━━━━━━
+                    
         disable_web_page_preview=True
     )
 
